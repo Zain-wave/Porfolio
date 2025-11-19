@@ -3,58 +3,227 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sebastian Vargas Ramirez</title>
+    <title>Sebastian Vargas Ramirez - Portafolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Sebastian Vargas Ramirez</h1>
-    <table>
-      <thead>
-        <tr>
-          <th>Nombre</th>
-          <th>Descripción</th>
-          <th>Repositorio</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Proyecto Bicicletas</td>
-          <td>Alquiler de bicicletas</td>
-          <td>
-            <a href="https://github.com/Zain-wave/Green-City" target="_blank"
-              >Ver en GitHub</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Proyecto Domicilio</td>
-          <td>Solicitar domicilio</td>
-          <td>
-            <a href="https://github.com/Zain-wave/Domi" target="_blank"
-              >Ver en GitHub</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>10 ejercicios</td>
-          <td>Ejercicios practica python</td>
-          <td>
-            <p>Aun no subido</p>
-          </td>
-        </tr>
-        <tr>
-          <td>CrudActivity - CrudData</td>
-          <td>Estructuras de Datos en Python</td>
-          <td>
-            <a
-              href="https://github.com/Zain-wave/CrudData-Estructuras-de-Datos-en-Python"
-              target="_blank"
-              >Ver en GitHub</a
-            >
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <script src="script.js"></script>
+    <div class="container">
+      <header>
+        <h1>Sebastian Vargas Ramirez</h1>
+        <p class="subtitle">Desarrollador de Software</p>
+        <div class="contact-badges">
+          <a
+            href="https://api.whatsapp.com/send?phone=573011920185"
+            target="_blank"
+            class="badge"
+          >
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a
+            href="https://www.instagram.com/wrong_angel_v/"
+            target="_blank"
+            class="badge"
+          >
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+          <a href="mailto:y.u.u.k.ibrb@gmail.com" class="badge">
+            <i class="fas fa-envelope"></i> Gmail
+          </a>
+          <a href="mailto:Zain-wave@outlook.com" class="badge">
+            <i class="fas fa-envelope"></i> Hotmail
+          </a>
+        </div>
+      </header>
+
+      <section class="about-section">
+        <h2 class="section-title">👋 ¡Hola!</h2>
+        <p>
+          Soy <strong>Sebastian Vargas Ramirez</strong>, de
+          <strong>Colombia 🇨🇴</strong>. Actualmente un
+          <strong>aspirante a Desarrollador de Software</strong> con pasión por
+          crear soluciones eficientes, escalables y creativas a través del
+          código.
+        </p>
+
+        <div class="current-info">
+          <h3>📅 Actualmente</h3>
+          <ul>
+            <li>
+              🎓 Estudiando <strong>Desarrollo de Software</strong> en
+              <a href="https://riwi.io">Riwi</a>
+            </li>
+            <li>
+              💻 Ampliando mi experiencia en tecnologías
+              <strong>frontend</strong> y <strong>backend</strong>
+            </li>
+            <li>
+              🚀 Desarrollando proyectos personales y colaborativos en
+              <strong>GitHub</strong>
+            </li>
+            <li>
+              🧠 Enfocado en escribir
+              <strong>código limpio, mantenible y bien documentado</strong>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills-section">
+        <h2 class="section-title">📊 Habilidades Técnicas</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Tecnologías que Conozco</h3>
+            <div class="skills-list">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">GitHub</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Aprendiendo</h3>
+            <div class="skills-list">
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">Python</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="education-section">
+        <h2 class="section-title">🎓 Formación</h2>
+        <div class="education-card">
+          <h3>Técnico en Sistemas</h3>
+          <p>Servicio Nacional de Aprendizaje (SENA)</p>
+        </div>
+      </section>
+
+      <section class="projects-section">
+        <h2 class="section-title">💼 Proyectos Destacados</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Proyecto</th>
+              <th>Descripción</th>
+              <th>Repositorio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10 ejercicios</td>
+              <td>Ejercicios práctica Python</td>
+              <td>
+                <span class="pending">Próximamente</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Proyecto Domicilio</td>
+              <td>Sistema para solicitar domicilio</td>
+              <td>
+                <a
+                  href="https://github.com/Zain-wave/Domi"
+                  target="_blank"
+                  class="github-link"
+                >
+                  <i class="fab fa-github"></i> Ver en GitHub
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Proyecto Bicicletas</td>
+              <td>Sistema de alquiler de bicicletas</td>
+              <td>
+                <a
+                  href="https://github.com/Zain-wave/Green-City"
+                  target="_blank"
+                  class="github-link"
+                >
+                  <i class="fab fa-github"></i> Ver en GitHub
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>CrudActivity - CrudData</td>
+              <td>Estructuras de Datos en Python</td>
+              <td>
+                <a
+                  href="https://github.com/Zain-wave/CrudData-Estructuras-de-Datos-en-Python"
+                  target="_blank"
+                  class="github-link"
+                >
+                  <i class="fab fa-github"></i> Ver en GitHub
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Historia Usuario</td>
+              <td>Semana 3 Modulo 1</td>
+              <td>
+                <a
+                  href="https://github.com/Zain-wave/User-History-3"
+                  target="_blank"
+                  class="github-link"
+                >
+                  <i class="fab fa-github"></i> Ver en GitHub
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Crudzaso_Games</td>
+              <td>Proyecto Grupal Trivia</td>
+              <td>
+                <a
+                  href="https://github.com/Zain-wave/Crudzaso_Games"
+                  target="_blank"
+                  class="github-link"
+                >
+                  <i class="fab fa-github"></i> Ver en GitHub
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <footer>
+        <div class="social-links">
+          <a
+            href="https://api.whatsapp.com/send?phone=573011920185"
+            target="_blank"
+            class="social-link"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/wrong_angel_v/"
+            target="_blank"
+            class="social-link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/Zain-wave"
+            target="_blank"
+            class="social-link"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:y.u.u.k.ibrb@gmail.com" class="social-link"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <p>
+          Contacto:
+          <a href="mailto:y.u.u.k.ibrb@gmail.com">y.u.u.k.ibrb@gmail.com</a> |
+          <a href="mailto:Zain-wave@outlook.com">Zain-wave@outlook.com</a>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
